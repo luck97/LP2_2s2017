@@ -6,7 +6,8 @@
 # retorna uma string com n cópias da string original
 # multstring('Hi', 2) -> 'HiHi'
 def multstring(s, n):
-  return
+  a=s*n
+  return a
 
 def test_ex01():
   print ('Multstring')

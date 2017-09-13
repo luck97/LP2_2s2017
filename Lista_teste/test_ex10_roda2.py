@@ -7,9 +7,10 @@
 # roda2('Hello') -> 'lloHe'
 # roda2('Hi') -> 'Hi'
 def roda2(s):
-  return
+  return s[2:]+s[0]+s[1]
 
-def text_ex10():
+
+def test_ex10():
   print ('Roda 2')
   assert roda2('Hello') == 'lloHe'
   assert roda2('python') == 'thonpy'

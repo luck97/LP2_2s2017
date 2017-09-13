@@ -8,7 +8,7 @@
 # sem_pontas('python') -> 'ytho'
 # sem_pontas('coding') -> 'odin'
 def sem_pontas(s):
-  return 
+  return s[1:-1]
 
 def test_ex09():
   print ('Sem Pontas')

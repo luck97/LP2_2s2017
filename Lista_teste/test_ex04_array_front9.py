@@ -7,7 +7,9 @@
 # array_front9([1, 2, 3, 4, 9]) -> False
 # array_front9([1, 2, 3, 4, 5]) -> False
 def array_front9(nums):
-  return
+  if nums[0:3].count(9)>0:
+    return True
+  return False  
 
 def test_ex04():
   print ('Array front 9')

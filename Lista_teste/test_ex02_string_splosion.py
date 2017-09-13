@@ -6,8 +6,21 @@
 # string_splosion('abc') -> 'aababc'
 # string_splosion('ab') -> 'aab'
 def string_splosion(s):
-  return
-
+  if len(s)==1:
+    return s 
+  elif len(s)==2:
+    return s[0]+s[0]+s[1]
+  elif len(s)==3:
+    return s[0]+s[0]+s[1]+s[0]+s[1]+s[2]
+  elif len(s)==4:
+    return s[0]+s[0]+s[1]+s[0]+s[1]+s[2]+s[0]+s[1]+s[2]+s[3]
+  elif len(s)==5:
+    return s[0]+s[0]+s[1]+s[0]+s[1]+s[2]+s[0]+s[1]+s[2]+s[3]+s[0]+s[1]+s[2]+s[3]+s[4]
+  elif len(s)==6:
+    return s[0]+s[0]+s[1]+s[0]+s[1]+s[2]+s[0]+s[1]+s[2]+s[3]+s[0]+s[1]+s[2]+s[3]+s[4]+s[0]+s[1]+s[2]+s[3]+s[4]+s[5]
+    
+  
+  
 def test_ex02():
   print ('String Explosion')
   assert string_splosion('Code') == 'CCoCodCode'

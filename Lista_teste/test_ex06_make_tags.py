@@ -6,7 +6,7 @@
 # make_tags('i', 'Hello'), '<i>Hello</i>'
 # make_tags('cite', 'Yay'), '<cite>Yay</cite>'
 def make_tags(tab, word):
-  return 
+  return  "<"+tab+">"+word+"</"+tab+">"
 
 def test_ex06():
   print ('Make Tags')

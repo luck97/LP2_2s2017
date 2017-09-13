@@ -8,7 +8,7 @@
 # extra_end('ab'), 'ababab'
 # extra_end('Hi'), 'HiHiHi'  
 def extra_end(s):
-  return 
+  return (s[-2]+s[-1])*3
 
 def test_ex07():
   print ('Extra End')

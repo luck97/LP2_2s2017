@@ -8,8 +8,7 @@
 # first_half('HelloThere') -> 'Hello'
 # first_half('abcdef') -> 'abc'
 def first_half(s):
-  return 
-
+  return s[0:int(len(s)/2)]
 
 def test_ex08():
   print ('First Half')

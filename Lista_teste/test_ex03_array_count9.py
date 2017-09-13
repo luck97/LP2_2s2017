@@ -4,7 +4,8 @@
 # C. array_count9
 # conta quantas vezes aparece o 9 numa lista nums
 def array_count9(nums):
-  return 
+  return nums.count(9)
+ 
 
 def test_ex03():
   print ('Array count 9')
